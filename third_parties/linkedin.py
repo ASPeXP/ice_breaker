@@ -11,7 +11,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
     Manually scrape the information from the LinkedIn profile"""
     api_endpoint = "https://nubela.co/proxycurl/api/v2/linkedin"
     api_key = os.getenv("PROXY_API_KEY")
-    # header_dic = {"Authentication": f'Bearer -CwpOwEjuVDZykK_43wmfA'}
     header_dic = {"Authorization": "Bearer " + api_key}
 
     params = {

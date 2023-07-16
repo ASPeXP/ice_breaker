@@ -13,7 +13,7 @@ def lookup(name: str) -> str:
         Tool(
             name="Craw Google 4 linkedin profile page",
             func=get_profile_url,
-            description="useful for when you need get the linkedin page URL",
+            description="useful for when you need get the Linkedin Page URL",
         )
     ]
 
